@@ -1,0 +1,13 @@
+# Non-secret configuration. Secrets (API keys/tokens) live in .env instead.
+
+github:
+  owner: mattyiceg-org
+  repo: superset
+  label: devin-fix       # issues carrying this label are picked up by the scanner
+
+scan:
+  interval_minutes: 5
+  max_concurrent_sessions: 2   # cap on simultaneously "working" Devin sessions
+
+devin:
+  playbook_id: ""   # set once the "Superset Issue Remediation" playbook is created
