@@ -6,8 +6,8 @@ github:
   label: devin-fix       # issues carrying this label are picked up by the scanner
 
 scan:
-  interval_minutes: 5
-  max_concurrent_sessions: 2   # cap on simultaneously "working" Devin sessions
+  interval_minutes: 1
+  max_concurrent_sessions: 5   # cap on simultaneously "working" Devin sessions
 
 devin:
   org_id: "org-f304637925c84c04ac7771f8e58c3d3c"
