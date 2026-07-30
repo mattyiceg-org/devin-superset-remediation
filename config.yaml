@@ -12,3 +12,6 @@ scan:
 devin:
   org_id: "org-f304637925c84c04ac7771f8e58c3d3c"
   playbook_id: "playbook-c8dd394f548a4f06aca0218ed08a3cbb"   # "Superset Issue Remediation"
+
+storage:
+  db_path: "data/remediations.db"   # mounted as a Docker volume so state survives restarts
