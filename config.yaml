@@ -10,4 +10,5 @@ scan:
   max_concurrent_sessions: 2   # cap on simultaneously "working" Devin sessions
 
 devin:
-  playbook_id: ""   # set once the "Superset Issue Remediation" playbook is created
+  org_id: "org-f304637925c84c04ac7771f8e58c3d3c"
+  playbook_id: "playbook-c8dd394f548a4f06aca0218ed08a3cbb"   # "Superset Issue Remediation"
